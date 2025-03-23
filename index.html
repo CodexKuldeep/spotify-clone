@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="icon" href="./assets/logo.png">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+</head>
+<body>
+  <div class="container">
+
+    <!--Sidebar Content-->
+    <div class="sidebar">
+      <div class="home">
+        <a href="#"><i  style="opacity: 1"; class="fa-solid fa-house"><span >Home</span></i></a>
+        <a href="#"><i class="fa-solid fa-magnifying-glass"><span>Search</span></i></a>
+      </div>
+
+      <div class="sidebar-box1">
+        <div class="box2">
+          <div class="sidebar-box2"> 
+            <div class="library">
+              <img src="./assets/library_icon.png">
+              <span class="lib">Your Library</span>
+            </div>
+            <div class="arrow">
+            <ul>
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </ul>
+          </div>
+        </div>
+  
+  
+          <div class="create">
+            <h3 >Create your first playlist</h3>
+            <p>It's easy, we'll help you</p>
+            <button class="btn">Create playlist</button>
+          </div>
+          <div class="create" style="height: 10rem;">
+            <h3 >Let's find some poodcast to follow</h3>
+            <p>We'll keep you updated on new eisodes</p>
+            <button class="btn" style="width: 50%;">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <div class="main">
+
+      <nav class="nav">
+        <div class="symbol">
+          <img src="./assets/backward_icon.png">
+          <img src="./assets/forward_icon.png">
+        </div>
+        <div class="upgrade">
+          <button><span class="upg">Upgrade</span></button>
+          <button style="width: 8rem; opacity: 0.75; background-color: rgba(0, 0, 0, 0); color: white;"><i class="fa-solid fa-download"></i><span class="upg">Install app</span></button>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </nav>
+       
+      <div class="main-box2">
+        <h2>Recently played</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./assets/card1img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">your daily updat of the most played tracks ri..</p>
+          </div>
+        </div>
+
+        <h2>Spotifyb original &amp; exclusive podcasts</h2>
+        <div class="card-container2">
+          <div class="card">
+            <img src="./assets/card2img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">Mahiye jinna sona na koui hoye na koi hona..</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">nusrat fhateh ali khan songs ..</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">
+              south special songs of vijay thalapathi blockbuster new release songs..</p>
+          </div>
+          
+        </div>
+
+        
+        <h2>Treanding now near you</h2>
+        <div class="card-container2">
+          <div class="card">
+            <img src="./assets/card1img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">Mahiye jinna sona na koui hoye na koi hona..</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card6img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">nusrat fhateh ali khan songs ..</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg">
+            <h3>Top 5-Global</h3>
+            <p class="info">
+              south special songs of vijay thalapathi blockbuster new release songs..</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="player">
+      <div class="album">
+           <div class="album-img">
+            <img src="./assets/album_picture.jpeg">
+           </div>
+           <div class="album-info">
+            <h4>Heroin</h4>
+            <p>Bhojpuri song</p>
+           </div>
+           <div class="album-icon">
+            <img src="./assets/album_icon1.png">
+            <img src="./assets/album_icon2.png" style="height: 2rem;
+            width: 2rem; margin-top: .2rem;">
+           </div>
+      </div>
+
+      <div class="music">
+        <div class="pause">
+          <img src="./assets/player_icon1.png" >
+          <img src="./assets/player_icon2.png" >
+          <img src="./assets/player_icon3.png" style="transform: scale(1.67);">
+          <img src="./assets/player_icon4.png" >
+          <img src="./assets/player_icon5.png" >
+        </div>
+        <div class="range-bar">
+          <span>0.00</span>
+          <input type="range" style="width: 22rem;">
+          <span>4.45</span>
+        </div>        
+      </div>
+
+      <div class="control">
+        <img src="./assets/controls_icon1.png">
+        <img src="./assets/controld_icon2.png">
+
+        <img src="./assets/controls_icon3.png" style="width: 1.5rem; height: 1.5rem; opacity: 0.75;">
+        <img src="./assets/controls_icon4.png" style="width: 1.3rem; height: 1.3rem; opacity: 0.75;">
+        <img src="./assets/controls_icon5.png">
+        <input type="range">
+
+      </div>
+    </div>
+  </div>
+    
+</body>
+</html>
